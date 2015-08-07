@@ -192,4 +192,6 @@ ssize_t getdelim(char **lineptr, size_t *n, int delim, FILE *stream);
 
 __END_DECLS
 
+char *strerror(int errnum);
+
 #endif
